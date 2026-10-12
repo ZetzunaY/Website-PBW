@@ -362,10 +362,9 @@ footer {
 }
 
 .footer-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .footer-info h3 {
